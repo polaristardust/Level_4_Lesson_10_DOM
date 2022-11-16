@@ -35,17 +35,19 @@
         //Select all the div tags and assign them a variable
         //Select all the tags with class choice and assign them a variable
         //Use the variables to show the tags in the console
-     
+        let madlib = document.getElementById('mad-lib');
+        let divs = document.getElementsByTagName('div');
+        let choice = document.getElementsByClassName('choice');
 
-
-
-        
+        console.log(madlib);
+        console.log(divs);
+        console.log(choice);
 
         //Exercise 2
         //Change the p tag's text content to something new
         //Change the p tag's innerHTML to the hahaha.png
-
-        
+        madlib.textContent = 'Hope you have a great day!';
+        madlib.innerHTML = '<img src="images/hahaha.png">';
 
         //Exercise 3 is in form.html
 

@@ -16,14 +16,14 @@ function display() {
     //Exercise 6
     //Get the p tag by its id
     //Change the inner HTML of the p tag to the madlib (var)
-   
+    let ptag = document.getElementById('mad-lib'); //or document.querySelector('#mad-lib');
+    ptag.innerHTML = madLib; 
 
 
     //Bonus exercise: Show the inserted words with an underline
     //Get all the span tags by tagname using querySelectorAll()
     //Use the forEach() method to loop through the tags
     //Use setAttribute() method to apply class 'highlight'
-   
 
 
 }
